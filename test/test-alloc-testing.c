@@ -263,10 +263,7 @@ static UnitTestFunction tests[] = {
 
 int main(int argc, char *argv[])
 {
-	for (unsigned long i = 0 ; i < 5; i++) {};
-	{
-	   run_tests(tests);
-	}
+   	run_tests(tests);
 
 	return 0;
 }
